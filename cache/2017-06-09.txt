@@ -1,2 +1,48 @@
 [INFO] 2017-06-09 14:48:39
 Array
+"[INFO] 2017-06-09 15:34:21\r\nArray\r\n"
+[INFO] 2017-06-09 15:35:14
+["",""]
+
+[INFO] 2017-06-09 17:30:24
+["",""]
+
+[INFO] 2017-06-09 17:59:10
+["",""]
+
+[INFO] 2017-06-09 17:59:12
+["",""]
+
+[INFO] 2017-06-09 18:09:21
+["",""]
+
+[INFO] 2017-06-09 18:10:17
+["",""]
+
+[INFO] 2017-06-09 18:10:17
+{"data":{"type":"json","template":"index.php","data":{"name":"index\/index","data":"123"}},"actionClass":{"_view":{"c1":"c1","c2":"c2","c3":"c3"}}}
+
+[INFO] 2017-06-09 18:14:12
+["",""]
+
+[INFO] 2017-06-09 18:14:12
+{"data":{"type":"json","template":"index.php","data":{"name":"index\/index","data":"123"}},"actionClass":{"_view":{"c1":"c1","c2":"c2","c3":"c3"}}}
+
+[INFO] 2017-06-09 18:23:42
+["",""]
+
+[INFO] 2017-06-09 18:23:42
+{"data":{"type":"json","template":"index.php","data":{"name":"index\/index","data":"123"}},"actionClass":{"_view":{"c1":"c1","c2":"c2","c3":"c3"}}}
+
+[INFO] 2017-06-09 18:35:44
+["",""]
+
+[INFO] 2017-06-09 18:35:44
+{"data":{"type":"json","template":"index.php","data":{"name":"index\/index","data":"123"}},"actionClass":{"_view":{"c1":"c1","c2":"c2","c3":"c3"}}}
+
+[INFO] 2017-06-09 18:36:06
+["",""]
+
+[INFO] 2017-06-09 18:36:06
+{"data":{"type":"json","template":"index.php","data":{"name":"index\/index","data":"123"}},"actionClass":{"_view":{"c1":"c1","c2":"c2","c3":"c3"}}}
+

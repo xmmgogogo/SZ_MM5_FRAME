@@ -15,9 +15,9 @@ class fileLog implements logInterface
 
         if(file_exists($logSaveDir)) {
             $msgF       = '[' . $status . '] ' .  date('Y-m-d H:i:s') . PHP_EOL;
-            $contents   = $msgF . $msg . PHP_EOL;
+            $contents   = $msgF . json_encode($msg) . PHP_EOL;
 
-            file_put_contents($logSaveDir . '/' . date('Y-m-d') . '.txt', $contents, 8);
+            file_put_contents($logSaveDir . '/' . date('Y-m-d') . '.txt', $contents . PHP_EOL, 8);
         } else {
             throw new Exception('cache file not exit.', 101);//todo
         }

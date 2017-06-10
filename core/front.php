@@ -5,7 +5,21 @@ namespace core;
 class front
 {
     public $_route = [];
-    public $_data = '';
+    public $_return = '';
+
+    public function __construct()
+    {
+//        error_reporting(0);
+
+        date_default_timezone_set('Asia/Shanghai');
+
+        // 做一些页面初始化工作
+        set_exception_handler('\core\front::doException');
+        set_error_handler('\core\front::doError');
+
+        // 因为没有捕捉fatal错误的方法，怎么办了，我们可以使用替代方案。
+        register_shutdown_function('\core\front::shutdown');
+    }
 
     public function run() {
         //路由解析
@@ -22,11 +36,56 @@ class front
 
     public function dispatch() {
         $dispatch = new dispatch();
-        $this->_data = $dispatch->dispatch($this->route);
+        $this->_return = $dispatch->dispatch($this->route);
     }
 
+    /**
+     * 这里有个问题，为了能够兼容不同类型的返回类型，这里需要自定义处理类
+     */
     public function display() {
         $display = new display();
-        $display->show($this->_data);
+        $display->show($this->_return);
+    }
+
+    /**
+     * 捕获错误，进行保存
+     * @param $message
+     */
+    public static function doException($e) {
+        echo 'doException<br>';
+        $message    = $e->getMessage();
+//        $code       = $e->getCode();
+//        $file       = $e->getFile();
+//        $line       = $e->getLine();
+
+        // 进行log存储
+        var_dump($message);
+    }
+
+    public static function doError($message) {
+        echo 'doError<br>';
+        var_dump($message);
+    }
+
+    /**
+     * 这里咱们主要用来捕获fatal致命错误的替代方法。
+     * @return bool
+     */
+    public static function shutdown() {
+        $message = error_get_last();
+        /**
+         * array(
+         *  type => 1 ,
+         *  message => string,
+         *  file => int ,
+         *  line => int
+         * )
+         */
+        if ($message == null) {
+            return false;
+        } else {
+            echo 'fatal error<br>';
+            var_dump($message);
+        }
     }
 }

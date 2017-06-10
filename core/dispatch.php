@@ -18,6 +18,11 @@ class dispatch
         }
 
         $obj = new $class();
-        return call_user_func_array([$obj, $action], []);
+        $result = call_user_func_array([$obj, $action], []);
+
+        return [
+            'data'          => $result,
+            'actionClass'   => $obj
+        ];
     }
 }
