@@ -9,7 +9,11 @@ class front
 
     public function __construct()
     {
-//        error_reporting(0);
+        // 如果是测试环境，则打开错误log
+        if(config::get('config', 'is_debug')) {
+            error_reporting(E_ALL);
+            ini_set('display_errors', 'on');
+        }
 
         date_default_timezone_set('Asia/Shanghai');
 
@@ -51,20 +55,20 @@ class front
      * 捕获错误，进行保存
      * @param $message
      */
-    public static function doException($e) {
+    public static function doException($errno, $errstr, $errfile, $errline) {
         echo 'doException<br>';
-        $message    = $e->getMessage();
+//        $message    = $e->getMessage();
 //        $code       = $e->getCode();
 //        $file       = $e->getFile();
 //        $line       = $e->getLine();
 
         // 进行log存储
-        var_dump($message);
+//        var_dump($message);
     }
 
-    public static function doError($message) {
-        echo 'doError<br>';
-        var_dump($message);
+    public static function doError($errno, $errstr, $errfile, $errline) {
+        debug::show(func_get_args());
+        debug::log(func_get_args(), 'Error');
     }
 
     /**
@@ -85,7 +89,7 @@ class front
             return false;
         } else {
             echo 'fatal error<br>';
-            var_dump($message);
+//            var_dump($message);
         }
     }
 }

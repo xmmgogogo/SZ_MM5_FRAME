@@ -1,12 +1,9 @@
 <?php
-
 namespace core;
 
 class cacheBase
 {
-    public $local           = [];
-    public $cacheEngine     = '';
-    public $dbEngine        = '';
+    public $cacheEngine = '';
 
     public function __construct()
     {
@@ -16,44 +13,19 @@ class cacheBase
         // engine
         $cacheType = $cacheConfig['cacheType'];
 
-        // cache
         $class = '\\core\\cache\\' . $cacheType . 'Helper';
-        $this->cacheEngine = $class::instance()->client();
-
-        $this->dbEngine = factory::get('dbBase');
+        $this->cacheEngine = $class::instance($cacheConfig[$cacheType]['redis_1']['ip'], $cacheConfig[$cacheType]['redis_1']['port']);
     }
 
-    public function getTableCache() {
-        return $this->_table;
+    public function hGet($key, $value) {
+        return $this->cacheEngine->hGet($key, $value);
     }
 
-    public function getPk($uId) {
-        $key = $this->getTableCache();
-//        debug::log($key);
-        var_dump($this->local[$key]);
-        // 从本地缓存里面读取
-        if(empty($this->local[$key])) {
-            // 从缓存里面读取
-            $db_cache = $this->cacheEngine->hGet('db_cache', $key);
-var_dump($db_cache);
-            // 从数据库里面读取
-            if(empty($db_cache)) {
-                // todo
-                $data = $this->dbEngine->get();
-                var_dump($data);
-            }
-        }
+    public function hSet($key, $subKey, $value) {
+        return $this->cacheEngine->hSet($key, $subKey, $value);
     }
 
-    public function updatePK() {
-
-    }
-
-    public function deletePK() {
-
-    }
-
-    public function addPK() {
-
+    public function hDel($key, $subKey) {
+        return $this->cacheEngine->hDel($key, $subKey);
     }
 }

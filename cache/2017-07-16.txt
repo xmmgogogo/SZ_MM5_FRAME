@@ -1,0 +1,627 @@
+[INFO] 2017-07-16 18:11:52
+"Index@index"
+
+[Error] 2017-07-16 18:11:53
+[2048,"Declaration of core\\db\\mysql::query() should be compatible with Medoo\\Medoo::query($query, $map = Array)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\db\\mysql.php",5,{"class":"core\\db\\mysql"}]
+
+[Error] 2017-07-16 18:11:53
+[2,"require(core\\db\\Medoo.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"core\\db\\Medoo"}]
+
+[INFO] 2017-07-16 18:17:19
+"Index@index"
+
+[Error] 2017-07-16 18:17:20
+[2048,"Declaration of core\\db\\mysql::query() should be compatible with Medoo\\Medoo::query($query, $map = Array)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\db\\mysql.php",5,{"class":"core\\db\\mysql"}]
+
+[Error] 2017-07-16 18:17:21
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[Error] 2017-07-16 18:17:22
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:17:22
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:17:22
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 18:19:43
+"Index@index"
+
+[Error] 2017-07-16 18:19:45
+[2048,"Declaration of core\\db\\mysql::query() should be compatible with Medoo\\Medoo::query($query, $map = Array)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\db\\mysql.php",5,{"class":"core\\db\\mysql"}]
+
+[Error] 2017-07-16 18:19:46
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[Error] 2017-07-16 18:19:46
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:19:46
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:19:46
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 18:20:39
+"Index@index"
+
+[Error] 2017-07-16 18:20:41
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[Error] 2017-07-16 18:20:42
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:20:42
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:20:42
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 18:21:14
+"Index@index"
+
+[Error] 2017-07-16 18:21:16
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[Error] 2017-07-16 18:21:16
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:21:16
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 18:21:16
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 18:22:04
+"Index@index"
+
+[Error] 2017-07-16 18:22:05
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 18:23:34
+"Index@index"
+
+[INFO] 2017-07-16 18:23:47
+"Index@index"
+
+[Error] 2017-07-16 18:23:48
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 18:27:13
+"Index@index"
+
+[INFO] 2017-07-16 18:27:58
+"Index@index"
+
+[Error] 2017-07-16 18:27:58
+[2,"require(Medoo.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"Medoo"}]
+
+[INFO] 2017-07-16 18:28:15
+"Index@index"
+
+[Error] 2017-07-16 18:28:16
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:13:21
+"Index@index"
+
+[Error] 2017-07-16 19:13:22
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:14:36
+"Index@index"
+
+[INFO] 2017-07-16 19:16:30
+"Index@index"
+
+[INFO] 2017-07-16 19:16:46
+"Index@index"
+
+[Error] 2017-07-16 19:16:47
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:20:21
+"Index@index"
+
+[Error] 2017-07-16 19:20:22
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:21:54
+"Index@index"
+
+[Error] 2017-07-16 19:21:55
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:21:58
+"Index@index"
+
+[Error] 2017-07-16 19:21:59
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:22:32
+"Index@index"
+
+[Error] 2017-07-16 19:22:34
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:29:42
+"Index@index"
+
+[Error] 2017-07-16 19:29:43
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:29:57
+"Index@index"
+
+[Error] 2017-07-16 19:29:58
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:30:06
+"Index@index"
+
+[INFO] 2017-07-16 19:31:40
+"Index@index"
+
+[INFO] 2017-07-16 19:31:41
+"Index@index"
+
+[INFO] 2017-07-16 19:31:42
+"Index@index"
+
+[INFO] 2017-07-16 19:31:42
+"Index@index"
+
+[INFO] 2017-07-16 19:31:43
+"Index@index"
+
+[INFO] 2017-07-16 19:31:43
+"Index@index"
+
+[INFO] 2017-07-16 19:31:44
+"Index@index"
+
+[INFO] 2017-07-16 19:31:44
+"Index@index"
+
+[INFO] 2017-07-16 19:31:44
+"Index@index"
+
+[INFO] 2017-07-16 19:31:44
+"Index@index"
+
+[INFO] 2017-07-16 19:31:51
+"Index@index"
+
+[Error] 2017-07-16 19:31:52
+[8,"Undefined index: dbBase","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\factory.php",25,{"key":"dbBase","file_name":"\\core\\dbBase"}]
+
+[INFO] 2017-07-16 19:35:04
+"Index@index"
+
+[Error] 2017-07-16 19:35:05
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 19:35:05
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 19:35:05
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 19:36:32
+"Index@index"
+
+[Error] 2017-07-16 19:36:33
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 19:36:33
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 19:36:33
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 19:36:41
+"Index@index"
+
+[Error] 2017-07-16 19:36:42
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 19:36:42
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 19:36:42
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 19:38:04
+"Index@index"
+
+[INFO] 2017-07-16 19:38:24
+"Index@index"
+
+[INFO] 2017-07-16 19:38:24
+{"data":{"type":"html","template":"Index\/index.php","data":{"name":"lmj","data":"123"}},"actionClass":{"_view":{"c1":"c1","c2":"c2"}}}
+
+[Error] 2017-07-16 19:38:24
+[8,"Undefined index: template","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\resultType\\htmlType.php",15,{"_return":{"name":"lmj","data":"123"},"data":"123"}]
+
+[Error] 2017-07-16 19:38:24
+[8,"Undefined index: actionClass","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\resultType\\htmlType.php",18,{"_return":{"name":"lmj","data":"123"},"data":"123","template":null}]
+
+[Error] 2017-07-16 19:38:24
+[2,"require(E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\app\\View): failed to open stream: Permission denied","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\resultType\\htmlType.php",21,{"_return":{"name":"lmj","data":"123"},"data":"123","template":null,"actionClass":null}]
+
+[INFO] 2017-07-16 19:38:48
+"Index@index"
+
+[INFO] 2017-07-16 19:40:21
+"Index@index"
+
+[INFO] 2017-07-16 19:41:43
+"Index@index"
+
+[INFO] 2017-07-16 19:41:48
+"Index@index"
+
+[INFO] 2017-07-16 19:42:06
+"Index@index"
+
+[INFO] 2017-07-16 19:42:16
+"Index@index"
+
+[INFO] 2017-07-16 19:43:07
+"Index@index"
+
+[INFO] 2017-07-16 19:43:49
+"Index@index"
+
+[INFO] 2017-07-16 19:44:04
+"Index@index"
+
+[INFO] 2017-07-16 19:44:35
+"Index@index"
+
+[INFO] 2017-07-16 19:49:21
+"Index@index"
+
+[INFO] 2017-07-16 19:49:29
+"Index@index"
+
+[INFO] 2017-07-16 19:49:38
+"Index@index"
+
+[INFO] 2017-07-16 19:57:40
+"Index@index"
+
+[INFO] 2017-07-16 19:59:51
+"Index@index"
+
+[INFO] 2017-07-16 20:00:02
+"Index@index"
+
+[INFO] 2017-07-16 20:50:40
+"Index@index"
+
+[INFO] 2017-07-16 20:53:38
+"Index@index"
+
+[INFO] 2017-07-16 20:53:42
+"Index@index"
+
+[INFO] 2017-07-16 20:53:53
+"Index@index"
+
+[INFO] 2017-07-16 21:08:36
+"Index@index"
+
+[Error] 2017-07-16 21:08:36
+[2048,"Declaration of core\\dbBase::update() should be compatible with Medoo\\Medoo::update($table, $data, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:36
+[2048,"Declaration of core\\dbBase::delete() should be compatible with Medoo\\Medoo::delete($table, $where)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:36
+[2048,"Declaration of core\\dbBase::get() should be compatible with Medoo\\Medoo::get($table, $join = NULL, $columns = NULL, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[INFO] 2017-07-16 21:08:37
+"Index@index"
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::update() should be compatible with Medoo\\Medoo::update($table, $data, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::delete() should be compatible with Medoo\\Medoo::delete($table, $where)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::get() should be compatible with Medoo\\Medoo::get($table, $join = NULL, $columns = NULL, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[INFO] 2017-07-16 21:08:37
+"Index@index"
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::update() should be compatible with Medoo\\Medoo::update($table, $data, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::delete() should be compatible with Medoo\\Medoo::delete($table, $where)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::get() should be compatible with Medoo\\Medoo::get($table, $join = NULL, $columns = NULL, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[INFO] 2017-07-16 21:08:37
+"Index@index"
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::update() should be compatible with Medoo\\Medoo::update($table, $data, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::delete() should be compatible with Medoo\\Medoo::delete($table, $where)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[Error] 2017-07-16 21:08:37
+[2048,"Declaration of core\\dbBase::get() should be compatible with Medoo\\Medoo::get($table, $join = NULL, $columns = NULL, $where = NULL)","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",6,{"class":"core\\dbBase"}]
+
+[INFO] 2017-07-16 21:10:00
+"Index@index"
+
+[Error] 2017-07-16 21:10:01
+[2,"Invalid argument supplied for foreach()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\vendor\\catfan\\medoo\\src\\Medoo.php",248,{"query":"user","map":"*"}]
+
+[Error] 2017-07-16 21:10:01
+[2,"Invalid argument supplied for foreach()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\vendor\\catfan\\medoo\\src\\Medoo.php",303,{"query":"user","map":"*","statement":{"queryString":"user"}}]
+
+[INFO] 2017-07-16 21:10:02
+"Index@index"
+
+[Error] 2017-07-16 21:10:02
+[2,"Invalid argument supplied for foreach()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\vendor\\catfan\\medoo\\src\\Medoo.php",248,{"query":"user","map":"*"}]
+
+[Error] 2017-07-16 21:10:02
+[2,"Invalid argument supplied for foreach()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\vendor\\catfan\\medoo\\src\\Medoo.php",303,{"query":"user","map":"*","statement":{"queryString":"user"}}]
+
+[INFO] 2017-07-16 21:10:36
+"Index@index"
+
+[INFO] 2017-07-16 21:11:53
+"Index@index"
+
+[INFO] 2017-07-16 21:53:23
+"Index@index"
+
+[Error] 2017-07-16 21:53:23
+[2,"Missing argument 1 for app\\Model\\userModel::addUser(), called in E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\app\\Service\\userService.php on line 12 and defined","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\app\\Model\\userModel.php",25,[]]
+
+[Error] 2017-07-16 21:53:23
+[2,"Missing argument 3 for core\\dbBase::_update(), called in E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\model.php on line 72 and defined","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",33,{"table":"user","param":{"id":11,"name":"sss","age":40}}]
+
+[Error] 2017-07-16 21:53:23
+[8,"Undefined variable: where","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",34,{"table":"user","param":{"id":11,"name":"sss","age":40}}]
+
+[INFO] 2017-07-16 21:53:54
+"Index@index"
+
+[Error] 2017-07-16 21:53:54
+[2,"Missing argument 3 for core\\dbBase::_update(), called in E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\model.php on line 72 and defined","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",33,{"table":"user","param":{"id":11,"name":"sss","age":23}}]
+
+[Error] 2017-07-16 21:53:54
+[8,"Undefined variable: where","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\dbBase.php",34,{"table":"user","param":{"id":11,"name":"sss","age":23}}]
+
+[INFO] 2017-07-16 21:54:53
+"Index@index"
+
+[INFO] 2017-07-16 21:58:12
+"Index@index"
+
+[INFO] 2017-07-16 21:58:40
+"Index@index"
+
+[INFO] 2017-07-16 21:59:46
+"Index@index"
+
+[INFO] 2017-07-16 21:59:48
+"Index@index"
+
+[INFO] 2017-07-16 22:07:45
+"Index@index"
+
+[Error] 2017-07-16 22:07:45
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:07:45
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:07:45
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 22:10:05
+"Index@index"
+
+[INFO] 2017-07-16 22:13:12
+"Index@index"
+
+[INFO] 2017-07-16 22:13:57
+"Index@index"
+
+[INFO] 2017-07-16 22:15:18
+"Index@index"
+
+[INFO] 2017-07-16 22:15:19
+"Index@index"
+
+[INFO] 2017-07-16 22:16:07
+"Index@index"
+
+[INFO] 2017-07-16 22:24:01
+"Index@index"
+
+[INFO] 2017-07-16 22:28:20
+"Test@index"
+
+[Error] 2017-07-16 22:28:20
+[2,"require(app\\Controller\\Test\\Index.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"app\\Controller\\Test\\Index"}]
+
+[INFO] 2017-07-16 22:29:24
+"Test@db"
+
+[INFO] 2017-07-16 22:30:03
+"Test@dbtest"
+
+[INFO] 2017-07-16 22:30:32
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:30:53
+"Test@dbTest"
+
+[Error] 2017-07-16 22:30:53
+[2,"require(app\\Controller\\Test\\factory.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"app\\Controller\\Test\\factory"}]
+
+[INFO] 2017-07-16 22:35:46
+"Test@dbTest"
+
+[Error] 2017-07-16 22:35:46
+[2,"require(app\\Controller\\Test\\factory.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"app\\Controller\\Test\\factory"}]
+
+[INFO] 2017-07-16 22:37:59
+"Web@test"
+
+[INFO] 2017-07-16 22:37:59
+{"data":{"type":"json","data":{"name":"2","age":"2","time":"2017-07-16 22:37:59"}},"actionClass":{}}
+
+[INFO] 2017-07-16 22:39:05
+"Test@dbTest"
+
+[Error] 2017-07-16 22:39:05
+[2,"require(app\\Controller\\Test\\factory.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"app\\Controller\\Test\\factory"}]
+
+[INFO] 2017-07-16 22:39:16
+"Test@dbTest"
+
+[Error] 2017-07-16 22:39:16
+[2,"require(app\\Controller\\Test\\factory.php): failed to open stream: No such file or directory","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\autoLoad.php",16,{"class":"app\\Controller\\Test\\factory"}]
+
+[INFO] 2017-07-16 22:40:06
+"Test@dbTest"
+
+[Error] 2017-07-16 22:40:06
+[2,"Invalid argument supplied for foreach()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\vendor\\catfan\\medoo\\src\\Medoo.php",1181,{"table":"user","data":null,"where":{"id":{"name":"update-name"}},"fields":[],"map":[]}]
+
+[Error] 2017-07-16 22:40:06
+[8,"Array to string conversion","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\model.php",72,{"table":"user","param":null,"where":{"id":{"name":"update-name"}},"uId":{"name":"update-name"},"status":{"queryString":"UPDATE \"user\" SET  WHERE \"id\" IN ('update-name')"}}]
+
+[Error] 2017-07-16 22:40:06
+[2,"Redis::hSet() expects parameter 2 to be string, array given","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\cache\\redisHelper.php",41,{"key":"user:Array","subKey":{"name":"update-name"},"value":"null"}]
+
+[Error] 2017-07-16 22:40:06
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:40:06
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:40:06
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 22:41:04
+"Test@dbTest"
+
+[Error] 2017-07-16 22:41:04
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:41:04
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:41:04
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 22:43:04
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:43:04
+
+
+[INFO] 2017-07-16 22:43:19
+"Test@dbTest"
+
+[Error] 2017-07-16 22:43:19
+[2,"Missing argument 2 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:43:19
+[2,"Missing argument 3 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[Error] 2017-07-16 22:43:19
+[2,"Missing argument 4 for core\\front::doException()","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\front.php",58,{"errno":{}}]
+
+[INFO] 2017-07-16 22:43:35
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:43:35
+
+
+[INFO] 2017-07-16 22:43:36
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:43:36
+
+
+[INFO] 2017-07-16 22:49:11
+"Test@dbTest"
+
+[Error] 2017-07-16 22:49:11
+[2,"array_merge(): Argument #1 is not an array","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\model.php",74,{"table":"user","param":{"name":"update-name"},"where":{"id":"1192"},"uId":"1192","status":{"queryString":"UPDATE \"user\" SET \"name\" = :MeDoO_3_mEdOo WHERE \"id\" = :MeDoO_4_mEdOo"},"key":"user:1192","cache":"{\"id\":1192,\"name\":\"1685:name\",\"age\":990}"}]
+
+[INFO] 2017-07-16 22:49:11
+
+
+[INFO] 2017-07-16 22:49:30
+"Test@dbTest"
+
+[Error] 2017-07-16 22:49:30
+[2,"array_merge(): Argument #1 is not an array","E:\\wamp64\\www\\AllPHPFrames\\Litemm5\\core\\model.php",75,{"table":"user","param":{"name":"update-name"},"where":{"id":"1556"},"uId":"1556","status":{"queryString":"UPDATE \"user\" SET \"name\" = :MeDoO_3_mEdOo WHERE \"id\" = :MeDoO_4_mEdOo"},"key":"user:1556","cache":"{\"id\":1556,\"name\":\"1218:name\",\"age\":1216}"}]
+
+[INFO] 2017-07-16 22:49:30
+
+
+[INFO] 2017-07-16 22:50:27
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:50:27
+
+
+[INFO] 2017-07-16 22:50:37
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:50:37
+
+
+[INFO] 2017-07-16 22:50:38
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:50:38
+
+
+[INFO] 2017-07-16 22:50:41
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:50:41
+
+
+[INFO] 2017-07-16 22:50:51
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:50:51
+
+
+[INFO] 2017-07-16 22:50:52
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:50:52
+
+
+[INFO] 2017-07-16 22:56:26
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:56:26
+
+
+[INFO] 2017-07-16 22:56:29
+"Test@dbTest"
+
+[INFO] 2017-07-16 22:56:29
+
+

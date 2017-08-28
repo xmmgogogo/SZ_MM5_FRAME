@@ -1,8 +1,6 @@
 <?php
-
 namespace core;
 
-use League\Flysystem\Exception;
 
 class factory
 {
@@ -30,8 +28,8 @@ class factory
     public static function set($key, $file_name) {
         try {
             self::$container[$key] = new $file_name();
-        } catch (Exception $e) {
-            // ...
+        } catch (\Exception $e) {
+            throw new \Exception($file_name . ' not exist. ' . $e->getMessage());
         }
     }
 

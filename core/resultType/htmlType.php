@@ -9,10 +9,10 @@ class htmlType implements resultType
         //这里使用模板
 
         // 返回的页面数据
-        $data           = $_return['data']['data'];
+        $data           = $_return['data'];
 
         // 指定的模板
-        $template       = $_return['data']['template'];
+        $template       = $_return['template'];
 
         // 返回的是index/index的类对象，可以直接实现模板
         $actionClass    = $_return['actionClass'];

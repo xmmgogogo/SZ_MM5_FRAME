@@ -1,34 +1,49 @@
 <?php
-
 namespace core\db;
 
-
-class mysql
+// 废弃
+class mysql extends \Medoo\Medoo
 {
     public static $instance = '';
 
     public $client = '';
 
-    public function __construct()
+    public $db_index = '';
+
+    public function __construct($db_num)
     {
-        //连接本地的 Redis 服务
-        $this->client = mysqli_connect('127.0.0.1', 'root', '', 'psr_test');
+        //连接本地的 Mysql 服务
+        try {
+            parent::__construct(
+                [
+                    'database_type' => 'mysql',
+                    'database_name' => 'psr_test',
+                    'server'        => '127.0.0.1',
+                    'username'      => 'root',
+                    'password'      => '',
+                    'charset'       => 'utf8'
+                ]
+            );
+        } catch (\Exception $e) {
+            throw new \Exception('db connect error. ' . $e->getMessage());
+        }
     }
 
-    public static function instance() {
-        if(!self::$instance) {
-            self::$instance = new self();
+    public static function instance($db_num) {
+        if(empty(self::$instance[$db_num])) {
+            self::$instance[$db_num] = new self($db_num);
         }
 
-        return self::$instance;
+        return self::$instance[$db_num];
     }
 
     public function client() {
-        return $this->client;
+        // ...
     }
 
-    public function query($sql) {
-        $query = mysqli_query($this->client, $sql);
-        return mysqli_fetch_all($query);
+    public function query_sql($table, $query = '*', $where = '') {
+        $data = $this->select($table, $query, $where);
+
+        return $data;
     }
 }

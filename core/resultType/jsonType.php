@@ -4,11 +4,10 @@ namespace core\resultType;
 
 class jsonType implements resultType
 {
-    public function render($_return)
+    public function render($data)
     {
         // TODO: Implement render() method.
-        $data           = $_return['data']['data'];
 
-        echo json_encode($data);
+        echo $data ? json_encode($data) : '';die;
     }
 }

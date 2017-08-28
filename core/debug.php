@@ -20,4 +20,8 @@ class debug
             $log->save($msg, $status);
         }
     }
+
+    public static function show($data) {
+        dump($data);
+    }
 }
